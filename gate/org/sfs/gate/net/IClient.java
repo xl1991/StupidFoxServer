@@ -1,4 +1,4 @@
-package org.sfs.net;
+package org.sfs.gate.net;
 
 public interface IClient {
 

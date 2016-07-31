@@ -31,4 +31,4 @@ public class Constants {
     static final int FILE_IDENTIFIER_LENGTH = 4;
 }
 
-/// @endcond
+// / @endcond
