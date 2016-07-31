@@ -8,6 +8,4 @@ public interface ISessionListener {
     void sessionRead(ISession session, IMessage message);
 
     void sessionError(ISession session, Throwable e);
-
-    void sessionIdle(ISession session);
 }

@@ -33,13 +33,7 @@ public class GateServerSessionListener implements ISessionListener {
 
     @Override
     public void sessionError(ISession session, Throwable e) {
-        logger.error("Session [{}] error.", session.getSessionId(), e);
+        logger.error("Session[{}] error.", session.getSessionId(), e);
         session.close();
     }
-
-    @Override
-    public void sessionIdle(ISession session) {
-        logger.info("Session[{}] idle.", session.getSessionId());
-    }
-
 }

@@ -7,7 +7,7 @@ import io.netty.buffer.ByteBuf;
 import org.sfs.gate.net.IMessage;
 
 public class Message implements IMessage {
-    private static final byte[] EMPTY_BYTE_ARRAY = new byte[0];
+    public static final byte[] EMPTY_BYTE_ARRAY = new byte[0];
     private int senderId;
     private int receiverId;
     private int cmdKey;
